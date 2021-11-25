@@ -9,8 +9,10 @@ This is just a simple Hello World Node Express API for the course Linux essentia
 To build and run a production container:
 
 ```bash
-docker-compose up
+docker-compose up --build
 ```
+
+Add the `--build` flag to make sure the container is rebuild.
 
 ### Development
 

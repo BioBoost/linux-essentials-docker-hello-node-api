@@ -1,13 +1,7 @@
-# Build Stage
-FROM node:12.19.0-alpine3.12 as build-stage
+FROM node:16.13.0-alpine3.14
 WORKDIR /app
 COPY package*.json ./
 RUN npm install --production
-
-# Deploy Stage
-FROM node:12.19.0-alpine3.12 as production-stage
-WORKDIR /app
-COPY --from=build-stage /app /app
 COPY . .
 
 # Launch the application
