@@ -1,0 +1,27 @@
+{
+  "name": "linux-essentials-docker-hello-node-api",
+  "version": "1.0.0",
+  "description": "Hello World from Node Express API in Docker",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BioBoost/linux-essentials-docker-hello-node-api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "docker",
+    "linux",
+    "essentials",
+    "vives"
+  ],
+  "author": "Nico De Witte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BioBoost/linux-essentials-docker-hello-node-api/issues"
+  },
+  "homepage": "https://github.com/BioBoost/linux-essentials-docker-hello-node-api#readme"
+}
